@@ -14,7 +14,7 @@ It uses a trained model and a vectorizer to process the input text and return pr
 4.Streamlit App – Simple user interface for testing news articles.
 
 # 📂 Project Structure
-
+```
 FraudNewsDetector/
 │
 ├── .streamlit/
@@ -35,6 +35,7 @@ FraudNewsDetector/
 ├── prediction.py # Script to load model and predict results
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
+```
 
 # 📊 How It Works
 
