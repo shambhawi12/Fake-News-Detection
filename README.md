@@ -18,23 +18,23 @@ It uses a trained model and a vectorizer to process the input text and return pr
 FraudNewsDetector/
 │
 ├── .streamlit/
-│   └── config.toml              # Streamlit UI configuration
+│ └── config.toml # Streamlit UI configuration
 │
 ├── data/
-│   ├── fake_news_cleaned.csv    # Cleaned combined dataset
-│   ├── Fake.csv                 # Fake news dataset
-│   └── True.csv                 # True news dataset
+│ ├── fake_news_cleaned.csv # Cleaned combined dataset
+│ ├── Fake.csv # Fake news dataset
+│ └── True.csv # True news dataset
 │
 ├── model/
-│   ├── fake_news_model.pkl      # Trained model
-│   └── vectorizer.pkl           # Saved vectorizer
+│ ├── fake_news_model.pkl # Trained model
+│ └── vectorizer.pkl # Saved vectorizer
 │
-├── app.py                       # Streamlit application entry point
-├── clean_dataset.py             # Dataset cleaning script
-├── model_training.py            # Model training script
-├── prediction.py                 # Script to load model and predict results
-├── requirements.txt             # Python dependencies
-└── README.md                    # Project documentation
+├── app.py # Streamlit application entry point
+├── clean_dataset.py # Dataset cleaning script
+├── model_training.py # Model training script
+├── prediction.py # Script to load model and predict results
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
 # 📊 How It Works
 
