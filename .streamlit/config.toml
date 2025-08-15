@@ -1,0 +1,7 @@
+[theme]
+base="light"
+primaryColor="#4CAF50"         # main accent color
+backgroundColor="#FFFFFF"      # page background
+secondaryBackgroundColor="#F5F5F5" # sidebar background
+textColor="#000000"            # text color
+font="sans serif"
