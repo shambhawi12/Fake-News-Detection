@@ -1174,24 +1174,26 @@ st.markdown("""
 
 # ---------- How It Works Section ----------
 st.markdown("""
-<div class="how-it-works scroll-reveal">
+<div class="how-it-works">
     <h2 class="section-title">How It Works</h2>
-    <p class="section-description">
-        Our advanced AI analyzes news content using machine learning algorithms trained on 1000+ real and fake news examples. 
-        Simply paste any text below for instant analysis.
-    </p>
+    <div style="text-align: center; max-width: 800px; margin: 0 auto 3rem auto;">
+        <p style="font-size: 1.2rem; color: #64748b; line-height: 1.6; margin: 0;">
+            Our advanced AI analyzes news content using machine learning algorithms trained on 1000+ real and fake news examples. 
+            Simply paste any text below for instant analysis.
+        </p>
+    </div>
     <div class="features-grid">
-        <div class="feature-item scroll-reveal" style="transition-delay: 0.1s;">
+        <div class="feature-item">
             <span class="feature-icon">🤖</span>
             <div class="feature-title">AI-Powered</div>
             <div class="feature-description">Advanced machine learning algorithms for accurate detection</div>
         </div>
-        <div class="feature-item scroll-reveal" style="transition-delay: 0.2s;">
+        <div class="feature-item">
             <span class="feature-icon">⚡</span>
             <div class="feature-title">Instant Results</div>
             <div class="feature-description">Get predictions in under 1 second with confidence scores</div>
         </div>
-        <div class="feature-item scroll-reveal" style="transition-delay: 0.3s;">
+        <div class="feature-item">
             <span class="feature-icon">🎯</span>
             <div class="feature-title">Reliable Detection</div>
             <div class="feature-description">High accuracy rate tested on diverse news sources</div>
